@@ -17,19 +17,17 @@ permissions:
 jobs:
   build:
     name: Build & Package (macOS Release)
-    runs-on: macos-26
+    runs-on: macos-15-intel
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Select Xcode 26+
+      - name: Select Latest Xcode
         run: |
-          if ! xcodebuild -version | grep -q "Xcode 26"; then
-            XCODE_26=$(ls -d /Applications/Xcode_26*.app 2>/dev/null | sort -V | tail -n 1 || true)
-            if [ -n "$XCODE_26" ]; then
-              sudo xcode-select -s "$XCODE_26/Contents/Developer"
-            fi
+          LATEST_XCODE=$(ls -d /Applications/Xcode_*.app 2>/dev/null | grep -v -i beta | sort -V | tail -n 1 || true)
+          if [ -n "$LATEST_XCODE" ]; then
+            sudo xcode-select -s "$LATEST_XCODE/Contents/Developer"
           fi
           xcodebuild -version
           swift --version
