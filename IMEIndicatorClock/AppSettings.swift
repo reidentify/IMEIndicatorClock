@@ -24,6 +24,35 @@ import Combine
 
 // MARK: - アプリ設定データモデル
 
+/// アプリ全体の共通設定（Dockアイコン表示など）
+struct GeneralSettings: Codable {
+
+	/// Dockにアイコンを表示するかどうか（デフォルトON）
+	/// - true:  .regular（Dockに表示）
+	/// - false: .accessory（Dockに表示しない、メニューバー常駐のみ）
+	///
+	/// 💡 フルスクリーン表示との両立について:
+	/// 以前は .regular にするとフローティング時計が他アプリのフルスクリーン空間の
+	/// 上に浮かばなかったが、これはウィンドウの level が .floating(3) と低かったため。
+	/// 時計・IMEインジケータの level を .screenSaver まで引き上げたことで、
+	/// .regular（Dock表示）のままフルスクリーン上にも浮かべられるようになった。
+	/// そのためデフォルトを true（Dock表示）に戻している。
+	var showDockIcon: Bool = true
+
+	enum CodingKeys: String, CodingKey {
+		case showDockIcon
+	}
+
+	/// デフォルト値で初期化
+	init() {}
+
+	/// 欠損キーに強い初期化（新しい設定項目を追加しても既存ファイルが壊れないように）
+	init(from decoder: Decoder) throws {
+		let container = try decoder.container(keyedBy: CodingKeys.self)
+		self.showDockIcon = try container.decodeIfPresent(Bool.self, forKey: .showDockIcon) ?? true
+	}
+}
+
 /// アプリ全体の設定を統合管理する構造体
 struct AppSettings: Codable {
 	/// IMEインジケータの設定
@@ -35,18 +64,39 @@ struct AppSettings: Codable {
 	/// マウスカーソルインジケータの設定
 	var mouseCursorIndicator: MouseCursorIndicatorSettings
 
+	/// アプリ全体の共通設定
+	var general: GeneralSettings
+
 	/// デフォルト値で初期化
 	init() {
 		self.imeIndicator = IMEIndicatorSettings()
 		self.clock = ClockSettings()
 		self.mouseCursorIndicator = MouseCursorIndicatorSettings()
+		self.general = GeneralSettings()
 	}
 
 	/// 既存の設定で初期化
-	init(imeIndicator: IMEIndicatorSettings, clock: ClockSettings, mouseCursorIndicator: MouseCursorIndicatorSettings = MouseCursorIndicatorSettings()) {
+	init(imeIndicator: IMEIndicatorSettings, clock: ClockSettings, mouseCursorIndicator: MouseCursorIndicatorSettings = MouseCursorIndicatorSettings(), general: GeneralSettings = GeneralSettings()) {
 		self.imeIndicator = imeIndicator
 		self.clock = clock
 		self.mouseCursorIndicator = mouseCursorIndicator
+		self.general = general
+	}
+
+	enum CodingKeys: String, CodingKey {
+		case imeIndicator
+		case clock
+		case mouseCursorIndicator
+		case general
+	}
+
+	/// 欠損キーに強い初期化（新しいセクションを追加しても既存ファイルが壊れないように）
+	init(from decoder: Decoder) throws {
+		let container = try decoder.container(keyedBy: CodingKeys.self)
+		self.imeIndicator = try container.decodeIfPresent(IMEIndicatorSettings.self, forKey: .imeIndicator) ?? IMEIndicatorSettings()
+		self.clock = try container.decodeIfPresent(ClockSettings.self, forKey: .clock) ?? ClockSettings()
+		self.mouseCursorIndicator = try container.decodeIfPresent(MouseCursorIndicatorSettings.self, forKey: .mouseCursorIndicator) ?? MouseCursorIndicatorSettings()
+		self.general = try container.decodeIfPresent(GeneralSettings.self, forKey: .general) ?? GeneralSettings()
 	}
 }
 

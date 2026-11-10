@@ -15,22 +15,22 @@ import AppKit
 
 /// 右クリックメニューをサポートするコンテナビュー
 /// NSHostingViewを子ビューとして保持し、ウィンドウサイズの自動拡大を防止する
-class ContextMenuHostingView<Content: View>: NSView {
+final class ContextMenuHostingView: NSView {
 
 	/// 設定を開くタブの種類
 	var settingsTab: SettingsTab = .clock
 
 	/// 内部のNSHostingView
-	private var hostingView: NSHostingView<Content>
+	private var hostingView: NSHostingView<AnyView>
 
 	/// SwiftUIビューのルートを更新
-	var rootView: Content {
+	var rootView: AnyView {
 		get { hostingView.rootView }
 		set { hostingView.rootView = newValue }
 	}
 
 	/// 初期化
-	required init(rootView: Content) {
+	init(rootView: AnyView) {
 		self.hostingView = NSHostingView(rootView: rootView)
 		super.init(frame: .zero)
 
@@ -117,7 +117,7 @@ class ClockWindowManager: NSObject, NSWindowDelegate {
 	var clockWindow: NSWindow?
 
 	/// ContextMenuHostingView（強参照で保持、右クリックメニュー対応）
-	var hostingView: ContextMenuHostingView<AnyView>?
+	var hostingView: ContextMenuHostingView?
 
 	/// NotificationCenterのオブザーバートークン
 	var windowMoveObserver: NSObjectProtocol?
@@ -605,8 +605,10 @@ extension ClockWindowManager {
 		// ウィンドウのプロパティ設定
 		window.isOpaque = false
 		window.backgroundColor = .clear
-		window.level = .floating
-		window.collectionBehavior = [.canJoinAllSpaces, .stationary, .ignoresCycle]
+		// フルスクリーンアプリの上にも浮かせるため、レベルを上げ .fullScreenAuxiliary を付与
+		// （.regular=Dock表示 のままでも他アプリのフルスクリーン空間上に表示可能）
+		window.level = .screenSaver
+		window.collectionBehavior = [.canJoinAllSpaces, .stationary, .ignoresCycle, .fullScreenAuxiliary]
 		window.minSize = NSSize(width: AppConstants.clockWindowMinSize, height: AppConstants.clockWindowMinSize)
 		window.maxSize = NSSize(width: AppConstants.clockWindowMaxSize, height: AppConstants.clockWindowMaxSize)
 		window.animationBehavior = .none

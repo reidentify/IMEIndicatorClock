@@ -19,8 +19,8 @@ struct ClockSettings: Codable {
 	
 	// MARK: - 基本設定
 	
-	/// 時計を表示するかどうか
-	var isVisible: Bool = true
+	/// 時計を表示するかどうか（デフォルトOFF：初回起動時は非表示）
+	var isVisible: Bool = false
 	
 	/// 時計のスタイル（アナログ/デジタル）
 	var style: ClockStyle = .analog

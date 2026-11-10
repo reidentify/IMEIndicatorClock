@@ -1,720 +1,1430 @@
 {
-  "sourceLanguage" : "en",
-  "strings" : {
-    "settings.window_title" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "الإعدادات"
+  "sourceLanguage": "en",
+  "strings": {
+    "settings.window_title": {
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الإعدادات"
           }
         },
-        "bn" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "সেটিংস"
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "সেটিংস"
           }
         },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ρυθμίσεις"
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ρυθμίσεις"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Settings"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
           }
         },
-        "fa" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "تنظیمات"
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تنظیمات"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "הגדרות"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הגדרות"
           }
         },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "सेटिंग्स"
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सेटिंग्स"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "設定"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定"
           }
         },
-        "km" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ការកំណត់"
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ការកំណត់"
           }
         },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "설정"
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "설정"
           }
         },
-        "lo" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ການຕັ້ງຄ່າ"
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ການຕັ້ງຄ່າ"
           }
         },
-        "mn" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Тохиргоо"
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тохиргоо"
           }
         },
-        "my" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ဆက်တင်များ"
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ဆက်တင်များ"
           }
         },
-        "ne" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "सेटिङहरू"
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सेटिङहरू"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Настройки"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки"
           }
         },
-        "si" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "සැකසීම්"
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "සැකසීම්"
           }
         },
-        "ta" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "அமைப்புகள்"
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அமைப்புகள்"
           }
         },
-        "te" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "సెట్టింగ్‌లు"
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "సెట్టింగ్‌లు"
           }
         },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "การตั้งค่า"
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การตั้งค่า"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Налаштування"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Налаштування"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cài đặt"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cài đặt"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "设置"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "設定"
-          }
-        }
-      }
-    },
-    "tab.about" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "حول"
-          }
-        },
-        "bn" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "সম্পর্কে"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Σχετικά"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "About"
-          }
-        },
-        "fa" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "درباره"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "אודות"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "के बारे में"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "About"
-          }
-        },
-        "km" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "អំពី"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "정보"
-          }
-        },
-        "lo" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ກ່ຽວກັບ"
-          }
-        },
-        "mn" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Тухай"
-          }
-        },
-        "my" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "အကြောင်း"
-          }
-        },
-        "ne" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "बारेमा"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "О программе"
-          }
-        },
-        "si" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "පිළිබඳව"
-          }
-        },
-        "ta" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "பற்றி"
-          }
-        },
-        "te" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "గురించి"
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "เกี่ยวกับ"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Про програму"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Giới thiệu"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "关于"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "關於"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定"
           }
         }
       }
     },
-    "tab.clock" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "الساعة"
+    "tab.about": {
+      "extractionState": "stale",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حول"
           }
         },
-        "bn" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ঘড়ি"
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "সম্পর্কে"
           }
         },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ρολόι"
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Σχετικά"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clock"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
           }
         },
-        "fa" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ساعت"
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "درباره"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "שעון"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אודות"
           }
         },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "घड़ी"
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "के बारे में"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "時計"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
           }
         },
-        "km" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "នាឡិកា"
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "អំពី"
           }
         },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "시계"
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "정보"
           }
         },
-        "lo" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ໂມງ"
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ກ່ຽວກັບ"
           }
         },
-        "mn" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Цаг"
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тухай"
           }
         },
-        "my" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "နာရီ"
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "အကြောင်း"
           }
         },
-        "ne" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "घडी"
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "बारेमा"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Часы"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "О программе"
           }
         },
-        "si" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ඔරලෝසුව"
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "පිළිබඳව"
           }
         },
-        "ta" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "கடிகாரம்"
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பற்றி"
           }
         },
-        "te" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "గడియారం"
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "గురించి"
           }
         },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "นาฬิกา"
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เกี่ยวกับ"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Годинник"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Про програму"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Đồng hồ"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giới thiệu"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "时钟"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关于"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "時鐘"
-          }
-        }
-      }
-    },
-    "tab.ime_indicator" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "مؤشر IME"
-          }
-        },
-        "bn" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IME নির্দেশক"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Δείκτης IME"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IME Indicator"
-          }
-        },
-        "fa" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "نشانگر IME"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "מחוון IME"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IME संकेतक"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IMEインジケータ"
-          }
-        },
-        "km" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "សូចនាករ IME"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IME 표시기"
-          }
-        },
-        "lo" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ຕົວຊີ້ບອກ IME"
-          }
-        },
-        "mn" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IME заагч"
-          }
-        },
-        "my" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IME ညွှန်ပြချက်"
-          }
-        },
-        "ne" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IME सूचक"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Индикатор IME"
-          }
-        },
-        "si" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IME දර්ශකය"
-          }
-        },
-        "ta" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IME காட்டி"
-          }
-        },
-        "te" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IME సూచిక"
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ตัวบ่งชี้ IME"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Індикатор IME"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chỉ báo IME"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IME指示器"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "IME指示器"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關於"
           }
         }
       }
     },
-    "tab.mouse_cursor" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "مؤشر الماوس"
+    "tab.clock": {
+      "extractionState": "stale",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الساعة"
           }
         },
-        "bn" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "মাউস কার্সর নির্দেশক"
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ঘড়ি"
           }
         },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Δείκτης κέρσορα ποντικιού"
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ρολόι"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mouse Cursor Indicator"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clock"
           }
         },
-        "fa" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "نشانگر مکان‌نما"
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ساعت"
           }
         },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "מחוון סמן עכבר"
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שעון"
           }
         },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "माउस कर्सर संकेतक"
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "घड़ी"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "マウスカーソルインジケータ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "時計"
           }
         },
-        "km" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "សូចនាករទស្សន៍ទ្រនិច"
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "នាឡិកា"
           }
         },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "마우스 커서 표시기"
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "시계"
           }
         },
-        "lo" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ຕົວຊີ້ບອກເຄີເຊີ"
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ໂມງ"
           }
         },
-        "mn" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Курсорын заагч"
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Цаг"
           }
         },
-        "my" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ကာဆာ ညွှန်ပြချက်"
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "နာရီ"
           }
         },
-        "ne" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "माउस कर्सर सूचक"
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "घडी"
           }
         },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Индикатор курсора мыши"
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Часы"
           }
         },
-        "si" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "මවුස් කර්සර් දර්ශකය"
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ඔරලෝසුව"
           }
         },
-        "ta" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "சுட்டி காட்டி"
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "கடிகாரம்"
           }
         },
-        "te" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "మౌస్ కర్సర్ సూచిక"
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "గడియారం"
           }
         },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ตัวบ่งชี้เคอร์เซอร์เมาส์"
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "นาฬิกา"
           }
         },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Індикатор курсора"
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Годинник"
           }
         },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chỉ báo con trỏ chuột"
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đồng hồ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "鼠标光标指示器"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "时钟"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "滑鼠游標指示器"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "時鐘"
+          }
+        }
+      }
+    },
+    "tab.ime_indicator": {
+      "extractionState": "stale",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مؤشر IME"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IME নির্দেশক"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δείκτης IME"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IME Indicator"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نشانگر IME"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מחוון IME"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IME संकेतक"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IMEインジケータ"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "សូចនាករ IME"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IME 표시기"
+          }
+        },
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ຕົວຊີ້ບອກ IME"
+          }
+        },
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IME заагч"
+          }
+        },
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IME ညွှန်ပြချက်"
+          }
+        },
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IME सूचक"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Индикатор IME"
+          }
+        },
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IME දර්ශකය"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IME காட்டி"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IME సూచిక"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตัวบ่งชี้ IME"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Індикатор IME"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ báo IME"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IME指示器"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IME指示器"
+          }
+        }
+      }
+    },
+    "tab.mouse_cursor": {
+      "extractionState": "stale",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مؤشر الماوس"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "মাউস কার্সর নির্দেশক"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δείκτης κέρσορα ποντικιού"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mouse Cursor Indicator"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نشانگر مکان‌نما"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מחוון סמן עכבר"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "माउस कर्सर संकेतक"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "マウスカーソルインジケータ"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "សូចនាករទស្សន៍ទ្រនិច"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "마우스 커서 표시기"
+          }
+        },
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ຕົວຊີ້ບອກເຄີເຊີ"
+          }
+        },
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Курсорын заагч"
+          }
+        },
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ကာဆာ ညွှန်ပြချက်"
+          }
+        },
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "माउस कर्सर सूचक"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Индикатор курсора мыши"
+          }
+        },
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "මවුස් කර්සර් දර්ශකය"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "சுட்டி காட்டி"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మౌస్ కర్సర్ సూచిక"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตัวบ่งชี้เคอร์เซอร์เมาส์"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Індикатор курсора"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ báo con trỏ chuột"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "鼠标光标指示器"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "滑鼠游標指示器"
+          }
+        }
+      }
+    },
+    "tab.general": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通用"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一般"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一般"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "일반"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عام"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "সাধারণ"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Γενικά"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عمومی"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כללי"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सामान्य"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ទូទៅ"
+          }
+        },
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ທົ່ວໄປ"
+          }
+        },
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ерөнхий"
+          }
+        },
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "အထွေထွေ"
+          }
+        },
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सामान्य"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Основные"
+          }
+        },
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "සාමාන්‍ය"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பொது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "సాధారణ"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ทั่วไป"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загальні"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chung"
+          }
+        }
+      }
+    },
+    "general.title": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通用"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一般"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一般"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "일반"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عام"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "সাধারণ"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Γενικά"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عمومی"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כללי"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सामान्य"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ទូទៅ"
+          }
+        },
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ທົ່ວໄປ"
+          }
+        },
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ерөнхий"
+          }
+        },
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "အထွေထွေ"
+          }
+        },
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सामान्य"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Основные"
+          }
+        },
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "සාමාන්‍ය"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பொது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "సాధారణ"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ทั่วไป"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загальні"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chung"
+          }
+        }
+      }
+    },
+    "general.dock_section": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "程序坞"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock"
+          }
+        }
+      }
+    },
+    "general.show_dock_icon": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show icon in Dock"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在程序坞中显示图标"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 Dock 中顯示圖示"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dockにアイコンを表示"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock에 아이콘 표시"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إظهار الأيقونة في Dock"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock-এ আইকন দেখান"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Εμφάνιση εικονιδίου στο Dock"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نمایش نماد در Dock"
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הצג סמל ב-Dock"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock में आइकन दिखाएं"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "បង្ហាញរូបតំណាងក្នុង Dock"
+          }
+        },
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ສະແດງໄອຄອນໃນ Dock"
+          }
+        },
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock-д дүрс тэмдэг харуулах"
+          }
+        },
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock တွင် သင်္ကေတပြပါ"
+          }
+        },
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock मा आइकन देखाउनुहोस्"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показывать значок в Dock"
+          }
+        },
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock තුළ නිරූපකය පෙන්වන්න"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dock-இல் ஐகானைக் காட்டு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dockలో చిహ్నాన్ని చూపించు"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แสดงไอคอนใน Dock"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показувати значок у Dock"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiển thị biểu tượng trên Dock"
+          }
+        }
+      }
+    },
+    "general.show_dock_icon_hint": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When off, the app runs only in the menu bar and is hidden from the Dock."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关闭后，应用仅在菜单栏运行，不在程序坞中显示。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉後，應用程式僅在選單列運行，不在 Dock 中顯示。"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "オフにすると、アプリはメニューバーのみで動作し、Dockには表示されません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "끄면 앱이 메뉴 막대에서만 실행되고 Dock에서 숨겨집니다."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عند الإيقاف، يعمل التطبيق في شريط القوائم فقط ويُخفى من Dock."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "বন্ধ থাকলে অ্যাপটি শুধু মেনু বারে চলে এবং Dock থেকে লুকানো থাকে।"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Όταν είναι ανενεργό, η εφαρμογή εκτελείται μόνο στη γραμμή μενού και κρύβεται από το Dock."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "وقتی خاموش است، برنامه فقط در نوار منو اجرا می‌شود و از Dock پنهان می‌شود."
+          }
+        },
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כשכבוי, האפליקציה פועלת רק בשורת התפריטים ומוסתרת מה-Dock."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "बंद होने पर, ऐप केवल मेनू बार में चलता है और Dock से छिपा रहता है।"
+          }
+        },
+        "km": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "នៅពេលបិទ កម្មវិធីដំណើរការតែក្នុងរបារម៉ឺនុយ ហើយលាក់ពី Dock។"
+          }
+        },
+        "lo": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ເມື່ອປິດ ແອັບຈະເຮັດວຽກສະເພາະໃນແຖບເມນູ ແລະ ຖືກເຊື່ອງຈາກ Dock."
+          }
+        },
+        "mn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Унтраасан үед апп зөвхөн цэсний мөрөнд ажиллаж, Dock-оос нуугдана."
+          }
+        },
+        "my": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ပိတ်ထားသောအခါ အက်ပ်သည် မီနူးဘားတွင်သာ လုပ်ဆောင်ပြီး Dock မှ ဖျောက်ထားသည်။"
+          }
+        },
+        "ne": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "बन्द हुँदा, एप मेनु बारमा मात्र चल्छ र Dock बाट लुकाइन्छ।"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Когда выключено, приложение работает только в строке меню и скрыто из Dock."
+          }
+        },
+        "si": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "අක්‍රිය විට, යෙදුම මෙනු තීරුවේ පමණක් ක්‍රියාත්මක වන අතර Dock වෙතින් සඟවා ඇත."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அணைக்கப்பட்டால், பயன்பாடு மெனு பட்டியில் மட்டுமே இயங்கும், Dock இல் மறைக்கப்படும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఆఫ్ చేసినప్పుడు, యాప్ మెను బార్‌లో మాత్రమే నడుస్తుంది మరియు Dock నుండి దాచబడుతుంది."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เมื่อปิด แอปจะทำงานเฉพาะในแถบเมนูและถูกซ่อนจาก Dock"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Коли вимкнено, застосунок працює лише в рядку меню та прихований з Dock."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khi tắt, ứng dụng chỉ chạy trên thanh menu và ẩn khỏi Dock."
           }
         }
       }
     }
   },
-  "version" : "1.0"
+  "version": "1.0"
 }

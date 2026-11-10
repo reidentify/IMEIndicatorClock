@@ -46,10 +46,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		dbgLog(1, "1️⃣ [DEBUG] アクセシビリティ権限チェック...")
 		AccessibilityHelper.checkPermissionOnLaunch()
 
-		// 2. アクティベーションポリシーを設定（Dockに表示しない）
+		// 2. アクティベーションポリシーを設定（設定に応じてDock表示を切り替え）
 		dbgLog(1, "2️⃣ [DEBUG] アクティベーションポリシーを設定...")
-		NSApplication.shared.setActivationPolicy(.accessory)
-		dbgLog(1, "✅ [DEBUG] .accessory モードに設定完了")
+		DockIconManager.shared.applyFromSettings()
+		dbgLog(1, "✅ [DEBUG] アクティベーションポリシー設定完了")
 
 		// 3. メニューバーをセットアップ
 		dbgLog(1, "3️⃣ [DEBUG] メニューバーをセットアップ...")

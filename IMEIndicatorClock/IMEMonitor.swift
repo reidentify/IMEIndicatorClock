@@ -204,11 +204,16 @@ class IMEMonitor {
 			return .chineseTraditional
 		}
 
-		// 中国語（簡体字）- ピンイン、五筆など
+		// 中国語（簡体字）- ピンイン、五筆、微信入力法（WeType）など
+		// 注: 微信入力法のIDは com.tencent.inputmethod.wetype.pinyin（小文字pinyin）のため
+		//     大文字の "Pinyin" では一致しない。"tencent"/"wetype" で明示的に判定する
 		if sourceID.contains("SCIM") ||
 		   sourceID.contains("Pinyin") ||
 		   sourceID.contains("Wubi") ||
-		   sourceID.contains("PinyinIM") {
+		   sourceID.contains("PinyinIM") ||
+		   sourceID.contains("com.tencent.inputmethod.wetype") ||
+		   sourceID.contains("tencent.inputmethod") ||
+		   sourceID.contains("wetype") {
 			return .chineseSimplified
 		}
 

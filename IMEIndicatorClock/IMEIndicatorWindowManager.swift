@@ -27,7 +27,7 @@ class IMEIndicatorWindowManager: NSObject {
 	private var indicatorWindow: NSWindow?
 
 	/// DraggableHostingView（強参照で保持、ドラッグ機能付き）
-	private var hostingView: DraggableHostingView<IMEIndicatorView>?
+	private var hostingView: DraggableHostingView?
 
 	/// 現在の入力言語
 	private(set) var currentLanguage: InputLanguage = .english
@@ -130,11 +130,12 @@ class IMEIndicatorWindowManager: NSObject {
 		// ウィンドウのプロパティを設定
 		window.isOpaque = false
 		window.backgroundColor = .clear
-		window.level = .floating
+		window.level = .screenSaver
 		window.collectionBehavior = [
 			.canJoinAllSpaces,
 			.stationary,
-			.ignoresCycle
+			.ignoresCycle,
+			.fullScreenAuxiliary
 		]
 		window.isMovableByWindowBackground = currentSettings.moveMode
 		window.ignoresMouseEvents = false

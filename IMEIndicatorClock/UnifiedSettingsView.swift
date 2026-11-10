@@ -17,7 +17,8 @@ enum SettingsTab: Int, CaseIterable {
 	case imeIndicator = 0
 	case clock = 1
 	case mouseCursor = 2
-	case about = 3
+	case general = 3
+	case about = 4
 
 	/// タブのタイトル（ローカライズキー）
 	var titleKey: String {
@@ -25,6 +26,7 @@ enum SettingsTab: Int, CaseIterable {
 		case .imeIndicator: return "tab.ime_indicator"
 		case .clock: return "tab.clock"
 		case .mouseCursor: return "tab.mouse_cursor"
+		case .general: return "tab.general"
 		case .about: return "tab.about"
 		}
 	}
@@ -40,6 +42,7 @@ enum SettingsTab: Int, CaseIterable {
 		case .imeIndicator: return "character.textbox"
 		case .clock: return "clock"
 		case .mouseCursor: return "cursorarrow"
+		case .general: return "gearshape.2"
 		case .about: return "info.circle"
 		}
 	}
@@ -83,6 +86,14 @@ struct UnifiedSettingsView: View {
 					Text(SettingsTab.mouseCursor.title)
 				}
 				.tag(SettingsTab.mouseCursor)
+
+			// アプリ全体の設定（Dockアイコンなど）
+			GeneralSettingsView()
+				.tabItem {
+					Image(systemName: SettingsTab.general.icon)
+					Text(SettingsTab.general.title)
+				}
+				.tag(SettingsTab.general)
 
 			// アプリについて
 			AboutView()

@@ -119,7 +119,7 @@ struct IMEIndicatorView: View {
 
 /// ドラッグ機能を持つNSHostingView
 /// 移動モードがONの時、インジケータをドラッグで移動できるようにします
-class DraggableHostingView<Content: View>: NSHostingView<Content> {
+final class DraggableHostingView: NSHostingView<IMEIndicatorView> {
 
 	/// ドラッグ開始時のマウス位置
 	private var initialLocation: NSPoint = .zero
@@ -128,7 +128,7 @@ class DraggableHostingView<Content: View>: NSHostingView<Content> {
 	private var initialWindowOrigin: NSPoint = .zero
 
 	/// 初期化
-	required init(rootView: Content) {
+	required init(rootView: IMEIndicatorView) {
 		super.init(rootView: rootView)
 	}
 

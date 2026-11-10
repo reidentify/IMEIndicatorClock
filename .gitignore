@@ -14,6 +14,8 @@ DerivedData/
 
 ## Build artifacts
 build/
+dist/*.dmg
+dist/*.zip
 *.hmap
 *.ipa
 *.dSYM.zip
